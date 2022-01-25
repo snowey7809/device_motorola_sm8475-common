@@ -35,6 +35,7 @@
 /sys/devices/virtual/input/input[0-9]+/enable_ps_sensor u:object_r:vendor_sysfs_laser:s0
 /sys/devices/virtual/input/input[0-9]+/offset           u:object_r:vendor_sysfs_laser:s0
 /sys/devices/virtual/input/input[0-9]+/xtalk            u:object_r:vendor_sysfs_laser:s0
+/(vendor|system/vendor)/bin/hw/motorola\.hardware\.camera\.desktop@2\.0-service u:object_r:hal_cameradesktop_default_exec:s0
 
 # Charger
 /data/vendor/chargeonly(/.*)?                           u:object_r:chargeonly_data_file:s0
