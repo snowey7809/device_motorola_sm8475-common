@@ -63,12 +63,6 @@ function blob_fixup() {
         system_ext/etc/permissions/moto-telephony.xml)
             sed -i "s#/system/#/system_ext/#" "${2}"
             ;;
-        system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so)
-            "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v33.so" "${2}"
-            ;;
-        system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so)
-            "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v33.so" "${2}"
-            ;;
         vendor/etc/media_cape/video_system_specs.json \
         |vendor/etc/media_ukee/video_system_specs.json \
         |vendor/etc/media_taro/video_system_specs.json)
