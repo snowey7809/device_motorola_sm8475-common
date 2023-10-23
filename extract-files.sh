@@ -106,6 +106,9 @@ function blob_fixup() {
         vendor/lib/hw/audio.primary.taro-moto.so | vendor/lib64/hw/audio.primary.taro-moto.so)
             "${PATCHELF}" --set-soname audio.primary.taro-moto.so "${2}"
             ;;
+        vendor/lib64/vendor.qti.gnss-service.so)
+            "${PATCHELF}" --replace-needed "android.hardware.gnss-V1-ndk_platform.so" "android.hardware.gnss-V1-ndk.so" "${2}"
+            ;;
     esac
 }
 
