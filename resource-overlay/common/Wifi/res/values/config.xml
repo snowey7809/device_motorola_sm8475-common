@@ -9,6 +9,9 @@
     <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
     <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
 
+    <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
+    <bool name="config_wifi6ghzSupport">true</bool>
+
     <!-- Wifi driver supports 6GHz band for softap -->
     <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
 
