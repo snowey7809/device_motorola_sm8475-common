@@ -1358,7 +1358,6 @@ system_ext/lib64/vendor.qti.qspmhal@1.0.so|89eeb4c36bbaad2091a07aac500c92359279d
 vendor/bin/hw/vendor.qti.hardware.display.composer-service|8ff2de6575a4da7302d12d24446154f29b75a6f4
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|fccf72adb56f17f330ff3d829ca2159980007790
 vendor/bin/hw/vendor.qti.hardware.perf-hal-service|0d6e42d649fca7198a0c68dda03330ad521c0d07
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|37eb9a36799b1245c859e78b98371d065ff5c658
 vendor/bin/poweropt-service|3ff43bde790493a33e16795c86e59a00597957fb
 vendor/bin/vendor.qti.qspmhal@1.0-service|3a3dc6934387bc82087edef764726602b8f4e02a
 vendor/etc/init/init.maxe.rc
@@ -1366,7 +1365,6 @@ vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
-vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
@@ -1398,7 +1396,6 @@ vendor/etc/pwr/VideoPowerOptFeature.xml
 vendor/etc/seccomp_policy/qspm.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib/libperfconfig.so|27e8c5277a30a7dbbcb9352b93e7f1adcee708e4
 vendor/lib/libperfgluelayer.so|561b0d8a82b1b97e67a705f76c27062f79142310
 vendor/lib/libperfioctl.so|3e472f2d5594bea7f73fec1c01e6957b3c6578be
@@ -1416,7 +1413,6 @@ vendor/lib/soundfx/libdlbvol.so|b7d7fe74078ef92148b922efa7e29021cfbd4423
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|a24cae7428c47af9b0843a3b8ba4f665cb0cf133
 vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|1cb543655ffa2dc03979378812ae063710244394
 vendor/lib/vendor.qti.qspmhal@1.0.so|1a44ba97b19aebc1ef7fd9d93ae90f70bba57bd2
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|32717a6fc4d3c3cdf4cd56c0231b6be00cd44183
 vendor/lib64/libadaptlaunch.so|0bee44c50c5e6a9929cf3cc976d3042527632c4d
 vendor/lib64/libapengine.so|f35dd9f89b06c64193926fd1f359a471863b7336
 vendor/lib64/libappclassifier.so|8881bdf80e4e4ed384e5352741b60399711a621d
