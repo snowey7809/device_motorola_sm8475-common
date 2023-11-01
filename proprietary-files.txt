@@ -366,13 +366,13 @@ vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 
 # Display - SDM prebuilt from AOSP v33
-vendor/lib/vendor.qti.hardware.display.config-V2-ndk.so
-vendor/lib64/vendor.qti.hardware.display.config-V2-ndk.so
-vendor/lib64/vendor.qti.hardware.display.config-V5-ndk.so
+vendor/lib/vendor.qti.hardware.display.config-V2-ndk.so|37b2144ba0eb7bad3567e361e2d1afea666976b5
+vendor/lib64/vendor.qti.hardware.display.config-V2-ndk.so|2082078eafb25dc96e0a39fcf836a8c741f0e7d1
+vendor/lib64/vendor.qti.hardware.display.config-V5-ndk.so|2bbf91b334244f30e5ca50e584eda09bfa9dd400
 
 # rmnetctl - Prebuilt from AOSP v33
-vendor/lib/librmnetctl.so
-vendor/lib64/librmnetctl.so
+vendor/lib/librmnetctl.so|743a882128c253e4c7f8c5c8fa58d3ff28db2dc5
+vendor/lib64/librmnetctl.so|c5ba624d40a4c20a194cb68e74c8334ba5e00269
 
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -611,8 +611,8 @@ vendor/lib/libqtikeymint.so
 vendor/lib64/libqtikeymint.so
 
 # Keymint - prebuilt from AOSP v33
-vendor/lib/android.hardware.security.keymint-V1-ndk.so
-vendor/lib64/android.hardware.security.keymint-V1-ndk.so
+vendor/lib/android.hardware.security.keymint-V1-ndk.so|a882a394c2ae8bc1dc63c4cb3f9f936141f394d0
+vendor/lib64/android.hardware.security.keymint-V1-ndk.so|a5c90d4f778f19bec61312df1a8279f458fceb19
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.taro.so
@@ -1124,8 +1124,8 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 
 # RIL - IMS - prebuilt from AOSP v33
-vendor/lib/libjnihelper.so
-vendor/lib64/libjnihelper.so
+vendor/lib/libjnihelper.so|dd6178e187a227283d0ac9a6820682be109a6807
+vendor/lib64/libjnihelper.so|99811892298082b87acb70ea7f9f4e14dc97a665
 
 # RIL - IMS
 vendor/bin/ims_rtp_daemon
