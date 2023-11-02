@@ -1356,14 +1356,12 @@ vendor/etc/init/init.vendor.wlan.rc
 # Missing blobs
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|89eeb4c36bbaad2091a07aac500c92359279d5c9
 vendor/bin/hw/vendor.qti.hardware.display.composer-service|8ff2de6575a4da7302d12d24446154f29b75a6f4
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|fccf72adb56f17f330ff3d829ca2159980007790
 vendor/bin/hw/vendor.qti.hardware.perf-hal-service|0d6e42d649fca7198a0c68dda03330ad521c0d07
 vendor/bin/poweropt-service|3ff43bde790493a33e16795c86e59a00597957fb
 vendor/bin/vendor.qti.qspmhal@1.0-service|3a3dc6934387bc82087edef764726602b8f4e02a
 vendor/etc/init/init.maxe.rc
 vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
@@ -1432,8 +1430,6 @@ vendor/lib64/libprekill.so|95085ae97d33120117dd73724814ceb3bfb7f6ce
 vendor/lib64/libprocomp.so|5162c7a8c859223582a432a5d3b3988bdfd0987d
 vendor/lib64/libpsmoptfeature.so|21d95f4c0844bdc0b01a71e3abaf148ba2910159
 vendor/lib64/libqapesdk.so|db1ddcd0f2a1c5af02cc3f4fe8a6cf0e212820d0
-vendor/lib64/libqti-iopd-client.so|0e979e5e070e4d18420e1acb2f2dd0b9370458d5
-vendor/lib64/libqti-iopd.so|8160d9d076a3647b3c4d1514eba5af9493e91754
 vendor/lib64/libqti-perfd-client.so|c7915ed30a3ec96abdd9ea79536cb69119b061ec
 vendor/lib64/libqti-perfd.so|5938e0f41b6dad217c7f40873b688c13b6b88708
 vendor/lib64/libqti-util.so|a438e544e1359a989922706f1d25cb80286baa03
@@ -1446,8 +1442,6 @@ vendor/lib64/libtinycompress.so|9bee3950184b4d7dd25d1d2ea8f23f626afa5d6f
 vendor/lib64/libvendorscenariopoweroptfeature.so|89307fd0465e2fad051c7fc0da8324b23a306bb5
 vendor/lib64/libvideooptfeature.so|7ef614177ca50ec080982a4c46af8bd6b42c6e3e
 vendor/lib64/soundfx/libdlbvol.so|1bce96e4a85233756ca7b9e5a1bb9b91449d4c02
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|ddb11d69f09373b91bc4e646c5883c5aed560ca4
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|1bc26984070be98a899992217ba9b7a625808d00
 vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so|1f94f63ae133d4722d96277042100301be34c725
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|e8980bc0f95fa5b10bf16b376c84cb58aa132af6
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|873547c22ec81515533715a9069a85ba2c3abb21
