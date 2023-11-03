@@ -1361,7 +1361,6 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/libqti-util.so|d7b8c4d8db03c2745f110f34e06e2964bcfd3c5f
 vendor/lib/libsdmcore.so|fb83707f0d0616560ca38744cbbce66478b0a61f
 vendor/lib/libskewknob.so|470bb63f03308bd74fb3bdcee79fa403f0b3a174
-vendor/lib/libtinycompress.so|7d8be67a410673dcd81831907b10a81b0db0de96
 vendor/lib/soundfx/libdlbvol.so|b7d7fe74078ef92148b922efa7e29021cfbd4423
 vendor/lib/vendor.qti.qspmhal@1.0.so|1a44ba97b19aebc1ef7fd9d93ae90f70bba57bd2
 vendor/lib64/libadaptlaunch.so|0bee44c50c5e6a9929cf3cc976d3042527632c4d
@@ -1382,7 +1381,6 @@ vendor/lib64/libsdmcore.so|f9379685c32dd9b1b9121a30ad59707f9fd1f636
 vendor/lib64/libsilkyscrolls.so|13609fbd9520d8ae079ddcc48b4f9f94ef5bb1d6
 vendor/lib64/libskewknob.so|f2f42879be0d48f265363b7f5bdc2cd33bb7357a
 vendor/lib64/libsplh.so|d5dae09e8505221255b0c83c13d874047313ef38
-vendor/lib64/libtinycompress.so|9bee3950184b4d7dd25d1d2ea8f23f626afa5d6f
 vendor/lib64/soundfx/libdlbvol.so|1bce96e4a85233756ca7b9e5a1bb9b91449d4c02
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so|9b89a25a20fcaaafb9da162d52b16b1fa144705e
 vendor/lib64/vendor.qti.qspmhal@1.0.so|27976a1ca7c0d9e8c0b97c5fb042580c46f35d71

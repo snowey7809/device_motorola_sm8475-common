@@ -112,7 +112,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndcardparser \
     vendor.qti.hardware.AGMIPC@1.0-service \
-    vendor.qti.hardware.pal@1.0-impl
+    vendor.qti.hardware.pal@1.0-impl \
+    libtinycompress
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/a2dp_in_audio_policy_configuration_7_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration_7_0.xml \
