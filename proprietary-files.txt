@@ -1359,7 +1359,6 @@ vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/seccomp_policy/qspm.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/libqti-util.so|d7b8c4d8db03c2745f110f34e06e2964bcfd3c5f
-vendor/lib/libsdmcore.so|fb83707f0d0616560ca38744cbbce66478b0a61f
 vendor/lib/libskewknob.so|470bb63f03308bd74fb3bdcee79fa403f0b3a174
 vendor/lib/soundfx/libdlbvol.so|b7d7fe74078ef92148b922efa7e29021cfbd4423
 vendor/lib/vendor.qti.qspmhal@1.0.so|1a44ba97b19aebc1ef7fd9d93ae90f70bba57bd2
@@ -1377,7 +1376,6 @@ vendor/lib64/libprekill.so|95085ae97d33120117dd73724814ceb3bfb7f6ce
 vendor/lib64/libprocomp.so|5162c7a8c859223582a432a5d3b3988bdfd0987d
 vendor/lib64/libqapesdk.so|db1ddcd0f2a1c5af02cc3f4fe8a6cf0e212820d0
 vendor/lib64/libqti-util.so|a438e544e1359a989922706f1d25cb80286baa03
-vendor/lib64/libsdmcore.so|f9379685c32dd9b1b9121a30ad59707f9fd1f636
 vendor/lib64/libsilkyscrolls.so|13609fbd9520d8ae079ddcc48b4f9f94ef5bb1d6
 vendor/lib64/libskewknob.so|f2f42879be0d48f265363b7f5bdc2cd33bb7357a
 vendor/lib64/libsplh.so|d5dae09e8505221255b0c83c13d874047313ef38
