@@ -1351,13 +1351,10 @@ vendor/etc/init/init.vendor.wlan.rc
 
 # Missing blobs
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|89eeb4c36bbaad2091a07aac500c92359279d5c9
-vendor/bin/hw/vendor.qti.hardware.display.composer-service|8ff2de6575a4da7302d12d24446154f29b75a6f4
 vendor/bin/vendor.qti.qspmhal@1.0-service|3a3dc6934387bc82087edef764726602b8f4e02a
 vendor/etc/init/init.maxe.rc
-vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/seccomp_policy/qspm.policy
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/libqti-util.so|d7b8c4d8db03c2745f110f34e06e2964bcfd3c5f
 vendor/lib/libskewknob.so|470bb63f03308bd74fb3bdcee79fa403f0b3a174
 vendor/lib/soundfx/libdlbvol.so|b7d7fe74078ef92148b922efa7e29021cfbd4423
