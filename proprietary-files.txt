@@ -370,10 +370,6 @@ vendor/lib/vendor.qti.hardware.display.config-V2-ndk.so|37b2144ba0eb7bad3567e361
 vendor/lib64/vendor.qti.hardware.display.config-V2-ndk.so|2082078eafb25dc96e0a39fcf836a8c741f0e7d1
 vendor/lib64/vendor.qti.hardware.display.config-V5-ndk.so|2bbf91b334244f30e5ca50e584eda09bfa9dd400
 
-# rmnetctl - Prebuilt from AOSP v33
-vendor/lib/librmnetctl.so|743a882128c253e4c7f8c5c8fa58d3ff28db2dc5
-vendor/lib64/librmnetctl.so|c5ba624d40a4c20a194cb68e74c8334ba5e00269
-
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
