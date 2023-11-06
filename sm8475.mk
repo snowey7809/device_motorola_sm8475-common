@@ -75,7 +75,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
     android.hardware.boot@1.2-impl-qti.recovery \
     android.hardware.boot@1.2-service \
-    android.hardware.boot@1.2.recovery \
     bootctrl.taro \
     bootctrl.taro.recovery
 
@@ -237,12 +236,6 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
-# FS tools
-PRODUCT_PACKAGES += \
-    e2fsck.recovery \
-    resize2fs.recovery \
-    tune2fs.recovery
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
@@ -290,6 +283,10 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-V1-ndk.vendor \
     android.hardware.security.rkp-V1-ndk.vendor \
     android.hardware.security.keymint-V1-ndk.vendor
+
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.motorola_taro
 
 # Media
 PRODUCT_COPY_FILES += \
