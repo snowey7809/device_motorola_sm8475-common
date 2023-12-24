@@ -218,6 +218,9 @@ on post-fs-data
     # Create panic dump dir.
     mkdir /data/vendor/dontpanic 0750 root log
 
+    # Create watchdogd dir.
+    mkdir /data/vendor/watchdogd 0750 root log
+
     # Create directory for cutback
     mkdir /data/vendor/misc/cutback 0770 radio wifi
 
@@ -258,11 +261,12 @@ on post-fs-data
     mkdir /data/vendor/.fps 0770 system vendor_fingerp
 
     # Required by touchRec for write the touch data
-    mkdir /data/vendor/touchrec 0770 input input
+    mkdir /data/vendor/touchrec 0773 input input
     chown input input /data/vendor/touchrec/bootindex
     chown input input /data/vendor/touchrec/lastbootuuid
     chown input input /data/vendor/touchrec/touch_data.txt
     chmod 0664 /data/vendor/touchrec/touch_data.txt
+    chmod 0664 /data/vendor/touchrec/raw_data.bin
 
 on boot
    # restore default console_loglevel to KERN_DEBUG
