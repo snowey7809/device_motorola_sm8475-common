@@ -47,8 +47,10 @@ if [ -s "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files.txt" ]; then
         append_firmware_calls_to_makefiles "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-firmware.txt"
     fi
 
-    write_rro_package "CarrierConfigOverlay" "com.android.carrierconfig" product
-    write_single_product_packages "CarrierConfigOverlay"
+    if [ -a "${MY_DIR}/../../${VENDOR}/${DEVICE}/proprietary-files-carriersettings.txt" ]; then
+        write_rro_package "CarrierConfigOverlay" "com.android.carrierconfig" product
+        write_single_product_packages "CarrierConfigOverlay"  
+    fi
 
     # Finish
     write_footers
