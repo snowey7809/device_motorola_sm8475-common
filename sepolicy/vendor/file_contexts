@@ -46,6 +46,7 @@
 
 # Dolby DMS
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service       u:object_r:hal_dms_default_exec:s0
+/data/vendor/dolby(/.*)?                                                u:object_r:vendor_audio_data_file:s0
 
 # Fingerprint
 /(mnt/vendor/persist|persist)/egis(/.*)?                u:object_r:vendor_persist_egis_file:s0
