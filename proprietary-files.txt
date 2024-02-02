@@ -765,6 +765,7 @@ vendor/etc/init/qmipriod.rc
 vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/etc/sec_config
 vendor/lib/libdiag.so
+vendor/lib/libdiagjni.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
@@ -786,6 +787,7 @@ vendor/lib/libqmiextservices.so
 vendor/lib/libqmimotext.so
 vendor/lib/libqmiservices.so
 vendor/lib64/libdiag.so
+vendor/lib64/libdiagjni.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
@@ -1106,15 +1108,13 @@ system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
+system_ext/lib64/libDiagService.so
+system_ext/lib64/libdiag_system.qti.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
-
-# RIL - IMS - prebuilt from AOSP v33
-vendor/lib/libjnihelper.so|dd6178e187a227283d0ac9a6820682be109a6807
-vendor/lib64/libjnihelper.so|99811892298082b87acb70ea7f9f4e14dc97a665
 
 # RIL - IMS
 vendor/bin/ims_rtp_daemon
@@ -1123,6 +1123,7 @@ vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdaemon.rc
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml
+vendor/lib/libjnihelper.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -1141,6 +1142,7 @@ vendor/lib64/lib-imsxml.so
 vendor/lib64/lib-rtpcommon.so
 vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpsl.so
+vendor/lib64/libjnihelper.so
 vendor/lib64/librcc.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so
