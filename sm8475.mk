@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     audio.primary.default \
     libfmpal \
+    libhfp_pal \
     libbatterylistener
 
 PRODUCT_COPY_FILES += \
