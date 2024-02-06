@@ -45,11 +45,12 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.media.c2</name>
-        <version>1.0</version>
+        <version>1.0-2</version>
         <interface>
             <name>IComponentStore</name>
             <instance>default</instance>
             <instance>software</instance>
+            <regex-instance>default[0-9]*</regex-instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">

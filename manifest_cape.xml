@@ -62,8 +62,8 @@
         <version>1.0</version>
         <interface>
             <name>IComponentStore</name>
-            <instance>default1</instance>
             <instance>default2</instance>
+            <instance>default9</instance>
             <instance>default</instance>
             <instance>software</instance>
         </interface>
