@@ -15,3 +15,4 @@ allow hal_cameradesktop_server self:netlink_kobject_uevent_socket create_socket_
 allow hal_cameradesktop_server vendor_sysfs_graphics:file r_file_perms;
 allow hal_cameradesktop_server vendor_sysfs_jpeg:file r_file_perms;
 allow hal_cameradesktop_server video_device:chr_file rw_file_perms;
+allow hal_cameradesktop_default vendor_sysfs_v4l2_name:file r_file_perms;
