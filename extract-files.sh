@@ -94,12 +94,6 @@ function blob_fixup() {
         vendor/bin/init.qti.media.sh)
             sed -i "s#build_codename -le \"12\"#build_codename -le \"13\"#" "${2}"
             ;;
-        vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so |\
-        vendor/bin/hw/android.hardware.gnss-aidl-service-qti |\
-        vendor/lib64/libgarden.so |\
-        vendor/lib64/libgarden_haltests_e2e.so)
-            "$PATCHELF" --replace-needed "android.hardware.gnss-V1-ndk_platform.so" "android.hardware.gnss-V1-ndk.so" "$2"
-            ;;
         # rename moto modified primary audio to not conflict with source built
         vendor/lib64/hw/audio.primary.taro-moto.so)
             "${PATCHELF}" --set-soname audio.primary.taro-moto.so "${2}"
@@ -109,6 +103,9 @@ function blob_fixup() {
             ;;
         vendor/lib64/libdlbdsservice.so | vendor/lib64/soundfx/libswdap.so)
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
+            ;;
+        vendor/lib64/sensors.moto.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v33.so" "${2}"
             ;;
     esac
 }
